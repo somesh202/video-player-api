@@ -1,6 +1,7 @@
 .wrapper {
     position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    padding-top: 56.25%;
+    border: 2px white
   }
   
   .player {
@@ -9,4 +10,6 @@
     left: 0;
     width: 100%;
     height: 100%;
+    border: 1px solid black;
+    background-color: black;
   }

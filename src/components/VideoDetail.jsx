@@ -3,7 +3,7 @@
 function VideoDetail(props) {
   return (
     <>
-      <div className="shadow-2xl shadow-black bg-black p-6 w-auto lg:mt-56 md:mt-64 rounded-bottom-lg">
+      <div className="shadow-2xl shadow-black bg-black p-6 w-auto 2xl:mt-56 lg:mt-40 md:mt-64 rounded-bottom-lg">
         <div className="block p-0">
           <div className="flex py-12 lg:-mt-4 md:mt-8 mt-32">
             <img className="w-8 h-8 rounded-full" src={props.pic} alt="" />

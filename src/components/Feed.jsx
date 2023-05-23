@@ -61,7 +61,7 @@ function Feed() {
               </div>
               <div
                 key={vid.postId}
-                className="absolute flex cursor-pointer lg:mt-80 lg:py-12 md:py-48 mt-64 text-right lg:ml-80 md:ml-72 ml-8 text-sm lg:text-lg"
+                className="absolute flex cursor-pointer 2xl:mt-80 lg:mt-64 lg:py-12 md:py-48 mt-64 text-right 2xl:ml-80 lg:ml-56 md:ml-72 ml-8 text-sm lg:text-lg"
               >
                 <ThumbUp
                   className={
